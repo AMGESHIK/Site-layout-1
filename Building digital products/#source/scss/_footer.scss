@@ -1,0 +1,118 @@
+.footer {
+	// .footer__container
+	margin-top: 100px;
+	border-top: 2px solid #d5d5d5;
+	&__container {
+	}
+
+	// .footer__body
+
+	&__body {
+		padding: 109px 0px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .footer__left
+
+	&__left {
+		flex: 0 1 344px;
+	}
+
+	// .footer__logo
+
+	&__logo {
+	}
+
+	// .footer__text
+
+	&__text {
+		margin-top: 20px;
+		font-size: 18px;
+		line-height: 28px;
+		color: #757575;
+	}
+
+	// .footer__sites
+
+	&__sites {
+		margin-top: 50px;
+		display: flex;
+		gap: 40px;
+	}
+
+	// .footer__facebook
+
+	&__facebook {
+		&:hover svg g path {
+			fill: #ffa800;
+		}
+	}
+
+	// .footer__inst
+
+	&__inst {
+		&:hover svg path {
+			stroke: #ffa800;
+		}
+	}
+
+	// .footer__tweeter
+
+	&__tweeter {
+		&:hover svg path {
+			fill: #ffa800;
+		}
+	}
+
+	// .footer__in
+
+	&__in {
+		&:hover svg path {
+			fill: #ffa800;
+		}
+	}
+
+	// .footer__right
+
+	&__right {
+		display: flex;
+		gap: 100px;
+		justify-content: space-between;
+	}
+
+	// .footer__column
+
+	&__column {
+	}
+
+	// .footer__column-header
+
+	&__column-header {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+		color: #08546c;
+	}
+
+	// .footer__links
+
+	&__links {
+		margin-top: 28px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	// .footer__link
+
+	&__link {
+		font-size: 18px;
+		line-height: 28px;
+		color: #787878;
+	}
+}
+.container {
+}
+.logo {
+}
